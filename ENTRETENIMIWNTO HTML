@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entretenimiento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sitios de Entretenimiento</h1>
+    </header>
+
+    <section>
+        <h2>Series y Películas</h2>
+        <button onclick="window.location.href='https://www.netflix.com'">Netflix</button>
+        <button onclick="window.location.href='https://www.hbo.com'">HBO</button>
+    </section>
+
+    <section>
+        <h2>Anime</h2>
+        <button onclick="window.location.href='https://www.crunchyroll.com'">Crunchyroll</button>
+        <button onclick="window.location.href='https://www.funimation.com'">Funimation</button>
+    </section>
+
+    <section>
+        <h2>Videos</h2>
+        <button onclick="window.location.href='https://www.youtube.com'">YouTube</button>
+        <button onclick="window.location.href='https://www.vimeo.com'">Vimeo</button>
+    </section>
+
+    <footer>
+        <p><a href="index.html">Ir a la Página Principal</a> | <a href="cultura.html">Ir a Preguntas de Cultura General</a></p>
+    </footer>
+</body>
+</html>
